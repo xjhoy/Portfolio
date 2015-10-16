@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-jun-2015, 9:37:39
+    Author     : Jhoseph Arango
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
+
+/*CLASES*/
+.Bangers{
+	font-family: 'Bangers', cursive;
+}
+
+.noImg{
+	background-color: #c12e2a;
+	width: 280px;
+	height: 140px;
+	margin-left: 5em;
+	margin-bottom: 1em;
+}
+
+.titulo{
+	font-size: 5em;
+	font-family: 'Bangers', cursive;
+	color: white;
+	text-shadow: 0px 0px 0px black,2px 2px 0px black,-2px -2px 0px black ;
+	
+}
+
+.myCanvas{
+	border: solid;
+	border-color: white;
+	-webkit-box-shadow: 20px 10px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow:		20px 10px 7px 0px rgba(0,0,0,0.75);
+	box-shadow:					20px 10px 7px 0px rgba(0,0,0,0.75);
+	
+	
+}
+.backBody{
+	background-image: url(../img/inside_spacecraft.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+	
+}
+.canvas-bg{
+	background: -webkit-canvas(animation) no-repeat 50% 50%;
+}
+
+.col4{
+	height: 200px;
+	display: table;
+}
+.imgProyect{
+	max-height: 160px;
+	border-radius: 6px;
+	-webkit-box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow:		7px 7px 7px 0px rgba(0,0,0,0.75);
+	box-shadow:					7px 7px 7px 0px rgba(0,0,0,0.75);
+	
+    margin: 25px;
+    opacity: 0.8;
+    border: 2px solid #eee;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+
+}
+.imgProyect:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+		
+    opacity: 1;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+
+}
+#jumbtronProyectos{
+	color: white;
+	background-image: url(../img/fondoProyectos.jpg);
+	background-position: center center;
+}
+
+.fondo{
+	background-image: url(../img/fondoProyecto.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.oculto{
+	display: none;
+}
+
+.framemap{
+	width: 500px;
+	height: 450px;
+	margin: 20px;
+}
+
+.fondoFormulario{
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 13px;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow:		5px 5px 5px 0px rgba(0,0,0,0.25);
+	box-shadow:					5px 5px 5px 0px rgba(0,0,0,0.25);
+	
+}
+
+
+/*ID*/
+#imgFondo{
+	color: white;
+	background-image: url(../img/imgFondoIndex.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+
+#imgFondoProyectos{
+	background-image: url(../img/imgFondoProyecto.jpg);
+}
+#titulo-sombra{
+		text-shadow: 2px 2px 2px black;
+}
