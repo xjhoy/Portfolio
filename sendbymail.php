@@ -1,13 +1,13 @@
 <?php
 if(isset($_POST['email'])) {
 
-// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
+// Debes editar las prï¿½ximas dos lï¿½neas de cï¿½digo de acuerdo con tus preferencias
     $email_to = "admin@xjportfolio.esy.es";
     $email_subject = "Contacto desde el sitio web";
     $email_from = "Contacto";
     $resultado = "hola";
 
-// Aquí se deberían validar los datos ingresados por el usuario
+// Aquï¿½ se deberï¿½an validar los datos ingresados por el usuario
     if(!isset($_POST['first_name']) ||
         !isset($_POST['mensaje'])) {
         $resultado = "<p>Error al enviar</p>";
@@ -24,7 +24,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Mensaje: " . $_POST['mensaje'] . "\n\n";
 
 
-// Ahora se envía el e-mail usando la función mail() de PHP
+// Ahora se envï¿½a el e-mail usando la funciï¿½n mail() de PHP
     $headers = 'From: '.$email_from."\r\n".
         'Reply-To: '.$email_from."\r\n" .
         'X-Mailer: PHP/' . phpversion();
